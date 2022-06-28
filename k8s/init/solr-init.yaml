@@ -9,7 +9,7 @@ spec:
         #- name: sitecore-docker-registry
       containers:
       - name: solr-init
-        image: mysitecorecontainerregistry007.azurecr.io/sitecorek8sdemo-xm1-solr-init:latest
+        image: mySitecoreContainerRegistryASD240622.azurecr.io/sitecorek8sdemo-xm1-solr-init:latest
         env:
         - name: SITECORE_SOLR_CONNECTION_STRING
           valueFrom:
